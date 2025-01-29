@@ -25,7 +25,8 @@ function createWindow(): void {
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'; " +
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
       "font-src 'self' https://fonts.gstatic.com; " +
-      "img-src 'self' data:; " +
+      "img-src 'self' blob: data:; " +
+      "media-src 'self' blob:; " +
       "connect-src 'self' ws: http: https:;"
     : // Production CSP (strict)
       "default-src 'self'; " +

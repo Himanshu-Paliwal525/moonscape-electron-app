@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    font-family: 'Poppins';
-    background-color: rgb(203, 213, 225);
+  font-family: 'Poppins';
+  background-color: rgb(203, 213, 225);
 }

@@ -6,4 +6,3 @@ declare global {
     api: unknown
   }
 }
-
