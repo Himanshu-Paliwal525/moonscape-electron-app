@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import send from '../assets/send.svg'
 import { MediaRecorderCreation } from './MediaRecorderUtils'
-import VoiceMessagingBox from './voiceMessaging'
+import VoiceMessagingBox from './voiceRecording'
 interface Message {
   user: string
   msg: string
